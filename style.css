@@ -1,0 +1,18 @@
+
+body{
+    min-height: 100vh;
+    background:  url("images/NPBTDMaintinanceMode.jpeg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    width:100%;
+}
+.glass{
+    /*background: linear-gradient(135deg, rgba(58, 30, 30, 0.253),rgba(53, 29, 29, 0.226));*/
+    background: linear-gradient(135deg, rgba(58, 30, 30, 0.349),rgba(63, 31, 31, 0.103));
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(1px);
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 4px 32px 0 rgba(0,0,0,0.37);
+}
